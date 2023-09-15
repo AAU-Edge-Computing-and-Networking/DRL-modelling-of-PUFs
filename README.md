@@ -1,10 +1,12 @@
 # DRL-modelling-of-PUFs
 
 Code to run Deep Reinforcement Learning (DRL) modelling attacks against Delay-based PUFs.
+
 The available PUFs are:
  - Arbiter PUF
  - k-XOR PUF
  - Interpose PUF
+
 The DRL algorithm used is Deep Q-Network (DQN), and the implemented modelling attacks are:
  - Supervised Learning:
    * Basic approach
@@ -28,7 +30,7 @@ The code was tested using the following:
 
 ## How to use
 
-To run single experiments use one of the following (use `--help-` for a list of arguments):
+To run single experiments use one of the following (use `--help` for a list of arguments):
 ```
 python3 blablabla.py
 ...
