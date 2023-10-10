@@ -30,14 +30,23 @@ The code was tested using the following:
 
 ## How to use
 
-To run single experiments use one of the following (use `--help` for a list of arguments):
+To run single experiments using DRL DQN algorithm use one of the following (use `--help` for a list of arguments):
 ```
-python3 blablabla.py
-...
+python3 DQN_attack_XORPUF.py
+python3 DQN_replicant_attack_XORPUF.py
+python3 DQN_vote_attack_XORPUF.py
+python3 DQN_delay_attack_XORPUF.py
+python3 DQN_attack_IPUF.py
+python3 DQN_collaborative_attack_IPUF.py
 ```
-For parametric simulations some examples are available with:
+All previous scripts require in the same directory one the classes defined in `PUF_env.py` and `PUF_delay_env.py`.
+
+To run single experiments using Supervised Learning Logistic Regression (LR) or Multi-Layer Perceptron (MLP), and the splitting attack on IPUF, use on of the following (use `--help` for a list of arguments):
 ```
-python3 main.py
+python3 LR_attack_XORPUF.py
+python3 MLP_attack_XORPUF.py
+python3 splitting_LR_attack.py
+python3 splitting_MLP_attack.py
 ```
 
 ## References
