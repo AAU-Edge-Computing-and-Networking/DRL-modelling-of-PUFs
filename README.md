@@ -13,6 +13,9 @@ The DRL algorithm used is Deep Q-Network (DQN), and the implemented modelling at
    * Federated learning approach
    * Majority vote approach
  - Modified Probably Appoximately Correct (PAC) approach
+ - IPUF attacks:
+   * Naive attack
+   * Collaborative attack
 
 ## How to cite
 
