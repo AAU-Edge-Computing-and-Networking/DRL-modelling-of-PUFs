@@ -23,12 +23,19 @@ M. Ferens, E. Dushku, and S. Kosta, "On the Feasibility of Deep Reinforcement Le
 
 ## Dependencies
 
-The code was tested using the following:
+The DQN attacks were tested using the following:
  - Python 3.8
  - pypuf 2.2.0
  - numpy 1.23.1
  - chainerrl 0.8.0
  - tensorflow 2.10.0
+ - pandas 1.5.1
+
+The LR or MLP attacks were tested using the following:
+ - Python 3.8
+ - pypuf 3.2.1
+ - numpy 1.23.1
+ - tensorflow 2.4.4
  - pandas 1.5.1
 
 ## How to use
