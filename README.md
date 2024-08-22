@@ -19,7 +19,7 @@ The DRL algorithm used is Deep Q-Network (DQN), and the implemented modelling at
 
 ## How to cite
 
-M. Ferens, E. Dushku, and S. Kosta, "On the Feasibility of Deep Reinforcement Learning for Modeling Delay-based Physical Unclonable Functions," 2024, *unpublished*.
+M. Ferens, E. Dushku, and S. Kosta, "On the Feasibility of Deep Reinforcement Learning for Modeling Delay-based Physical Unclonable Functions," 20th International Conference on Wireless and Mobile Computing, Networking and Communications (WiMob), pp. 1-8, 2024, *in press*.
 
 ## Dependencies
 
